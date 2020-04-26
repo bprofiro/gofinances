@@ -15,7 +15,7 @@ expenses.
 </div>
 
 <div>
-  <h2> 🖌 Application layout </h2>
+  <h2> 🖌 Application layout: </h2>
 
   - The layout can be accessed through the Figma page, at the [following link](https://www.figma.com/file/EgOhyj1Inz14dhWGVhRlhr/GoFinances?node-id=1%3A863).
 You will need a (free) account at Figma to inspect the layout and get details of colors, sizes, etc.
