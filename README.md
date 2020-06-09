@@ -1,31 +1,62 @@
-<img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios.png" />
+<p align="center">
+  <img src="https://github.com/bprofiro/gofinances/blob/master/frontend/src/assets/logo.svg" />
+</p>
 
-<h3 align="center">
-  Desafio 07: GoFinances Web
-</h3>
+<p align="center">
+  <img src=" https://github.com/bprofiro/assets/blob/master/In%C3%ADcio.png" />
+</p>
 
-<img alt="GoFinances" src="https://github.com/bprofiro/assets/blob/master/In%C3%ADcio.png" />
+## Sobre o Projeto
 
-<div>
-  <h2> :rocket: About the challenge: </h2>
+  Esse projeto foi desenvolvido durante o Bootcamp GoStack, organizada pela Rocketseat.
+
+  O GoFinances é um aplicativo de controle financeiro que permite ao usuário a importação de registros financeiros em um arquivo .csv e retorna as entradas, saídas e total acumulado que o usuário possui depois de cada transação.
   
-  - GoFinances is an application that allows the user to experience spending more visually and dynamically. Its usability is simple: 
-by dragging your .csv file, the API converts your transactions into something visual, allowing you to have greater control over your 
-expenses.
-</div>
+  Ele possui duas páginas, o Dashboard, para listar as transações, as entradas saídas e total e a página de importação.
 
-<div>
-  <h2> 🖌 Application layout: </h2>
+  A aplicação guarda no banco de dados as transações já feitas e as retorna de forma visual e agradável ao usuário final, além de não permitir a realização de uma transação de saída cujo o valor ultrapassa o valor em caixa.
 
-  - The layout can be accessed through the Figma page, at the [following link](https://www.figma.com/file/EgOhyj1Inz14dhWGVhRlhr/GoFinances?node-id=1%3A863).
-You will need a (free) account at Figma to inspect the layout and get details of colors, sizes, etc.
-</div>
 
-<div>
-  <h2> :computer: Techs: </h2>
-   <p> This project was built in just one language: JavaScript, using the following technologies:
+## Tecnologias:
+  O Ecoleta é um aplicação complexa e, por tanto, muitas ferramentas foram utilizadas para o seu desenvolvimento. Entre elas estão:
 
-   - [Node.js](https://nodejs.org/en/)
-   - [React](https://reactjs.org/)
-  </p>
-</div>
+- Node
+- React
+  - React Icons
+  - React Dropzone
+  - React Dom
+  - React Router Dom
+- Postgres
+- Docker
+- TypeORM
+- Date-fns
+- Styled Components
+- Join
+- Express
+- CORS
+- Axios
+- Multer
+- ESlint
+- Prettier
+
+## Ambiente de Desenvolvimento
+
+Para rodar essa aplicação em sua máquina, você precisará de um ambiente NodeJs básico instalado.
+
+**Clonando o repositório:**
+
+```
+$ git clone https://github.com/bprofiro/gofinances/.git
+```
+
+### Instalando:
+
+**Back-End**
+
+- Digite `npm install` na pasta `backend` para instalar todas as dependências;
+- Digite `npm run dev:server` para rodar o servidor;
+
+**Front-End** 
+
+- Digite `npm install` na pasta `frontend` para instalar todas as dependências;
+- Digite `npm start` para rodar o projeto;
