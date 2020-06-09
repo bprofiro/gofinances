@@ -18,7 +18,7 @@
 
 
 ## Tecnologias:
-  O Ecoleta é um aplicação complexa e, por tanto, muitas ferramentas foram utilizadas para o seu desenvolvimento. Entre elas estão:
+  Muitas ferramentas foram utilizadas para o seu desenvolvimento. Entre elas estão:
 
 - Node
 - React
@@ -31,7 +31,6 @@
 - TypeORM
 - Date-fns
 - Styled Components
-- Join
 - Express
 - CORS
 - Axios
@@ -41,7 +40,7 @@
 
 ## Ambiente de Desenvolvimento
 
-Para rodar essa aplicação em sua máquina, você precisará de um ambiente NodeJs básico instalado.
+  Para rodar essa aplicação em sua máquina, você precisará de um ambiente NodeJs básico instalado.
 
 **Clonando o repositório:**
 
