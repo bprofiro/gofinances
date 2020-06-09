@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src=" https://github.com/bprofiro/assets/blob/master/In%C3%ADcio.png" />
+  <img src="https://github.com/bprofiro/assets/blob/master/In%C3%ADcio.png" />
 </p>
 
 ## Sobre o Projeto
